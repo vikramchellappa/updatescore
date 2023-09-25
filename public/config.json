@@ -7,7 +7,7 @@
     "type": "REST",
     "lang": {
         "en-US": {
-            "name": "Adjust Score",
+            "name": "UpdateScore",
             "description": "Adjust Score custom Journey Builder activity",
             "step1Label": "Configure Activity"
         }

@@ -1,8 +1,8 @@
 {
     "workflowApiVersion": "1.1",
     "metaData": {
-        "icon": "images/icon.png",
-        "iconSmall": "images/iconSmall.png",
+        "icon": "images/icon2.png",
+        "iconSmall": "images/iconSmall2.png",
         "category": "message"
     },
     "type": "REST",
@@ -62,7 +62,7 @@
     "userInterfaces": {
         "configModal": {
             "height": 400,
-            "width": 1000,
+            "width": 400,
             "fullscreen": false
         }
     },

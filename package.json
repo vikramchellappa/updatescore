@@ -1,4 +1,7 @@
 {
+  "scripts": {
+   "start": "node index.js"
+  },
   "name": "adjustscore",
   "version": "0.0.0",
   "private": true,

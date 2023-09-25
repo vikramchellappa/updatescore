@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  h1= title
+  p #{title} for subscribers
+      div
+        p To/By:  
+            select#(name="to/by" id="toby")
+              option(value="To" label="To")
+              option(value="By" label="By")
+
+          p Operator:  
+              select#(name="operator" id="operator")
+                option(value="Add" label="+")
+                option(value="Subtract" label="-")
+          p Score: 
+            input(required type="number" id="score" min="0" max="100" step="5" title="Score")
+            
+        div.actions
+            input(type="button", value="Save")
+            
+            input(type="button", value="Cancel")
+
+        

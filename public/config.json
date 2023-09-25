@@ -41,12 +41,12 @@
             "useJwt": true
         },
         "stop": {
-            "url": "https://updatescore-a65526b7e3a5.herokuapp.co/journey/stop",
+            "url": "https://updatescore-a65526b7e3a5.herokuapp.com/journey/stop",
             "verb": "POST",
             "useJwt": true
         },
         "validate": {
-            "url": "https://updatescore-a65526b7e3a5.herokuapp.co/journey/validate",
+            "url": "https://updatescore-a65526b7e3a5.herokuapp.com/journey/validate",
             "verb": "POST",
             "useJwt": true
         }

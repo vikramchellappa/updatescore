@@ -20,7 +20,7 @@
                 }
             ],
             "outArguments": [],
-            "url": "https://updatescore-a65526b7e3a5.herokuapp.com/activity/execute",
+            "url": "https://updatescore-a65526b7e3a5.herokuapp.com/journey/execute",
             "verb": "POST",
             "body": "",
             "header": "",
@@ -31,22 +31,22 @@
     },
     "configurationArguments": {
         "save": {
-            "url": "https://updatescore-a65526b7e3a5.herokuapp.com/activity/save",
+            "url": "https://updatescore-a65526b7e3a5.herokuapp.com/journey/save",
             "verb": "POST",
             "useJwt": true
         },
         "publish": {
-            "url": "https://updatescore-a65526b7e3a5.herokuapp.com/activity/publish",
+            "url": "https://updatescore-a65526b7e3a5.herokuapp.com/journey/publish",
             "verb": "POST",
             "useJwt": true
         },
         "stop": {
-            "url": "https://updatescore-a65526b7e3a5.herokuapp.co/activity/stop",
+            "url": "https://updatescore-a65526b7e3a5.herokuapp.co/journey/stop",
             "verb": "POST",
             "useJwt": true
         },
         "validate": {
-            "url": "https://updatescore-a65526b7e3a5.herokuapp.co/activity/validate",
+            "url": "https://updatescore-a65526b7e3a5.herokuapp.co/journey/validate",
             "verb": "POST",
             "useJwt": true
         }

@@ -71,7 +71,7 @@ define([
 
             payload['arguments'].execute.inArguments = [{
                 "tokens": authTokens,
-                "emailAddress": "{{Contact.Attribute.AdjustScoreJourney.EmailAddress}}"
+                "emailAddress": "{{Contact.Attribute.EmailAddress}}"
             }];
 
             payload['metaData'].isConfigured = true;
